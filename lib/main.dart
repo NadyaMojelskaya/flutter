@@ -21,11 +21,11 @@ class MyApp extends StatelessWidget{
             SizedBox(
               width: double.infinity,
               child: RaisedButton( color: Color(0xFF64B5F6),textColor: Colors.white,
-                child: Text("Кубизм",style:TextStyle(fontSize: 20)),
+                child: Text("Литература",style:TextStyle(fontSize: 20)),
                 onPressed:() {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Begin("Кубизм")),
+                    MaterialPageRoute(builder: (context) => Begin("Литература")),
                   );
                 }
                 )
